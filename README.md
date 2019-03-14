@@ -4,13 +4,13 @@
 # Moving Features JSON Encodings
 
 This draft proposes a JSON encoding representation of movement of geographic features specified by OGC Moving Features ([OGC 14 083r2](http://docs.opengeospatial.org/is/14-083r2/14-083r2.html) and [OGC 14 084r2](http://docs.opengeospatial.org/is/14-084r2/14-084r2.html)).
-A moving feature can be express as a dynamic geomtry whose location continouly changes over time. Also it can contain dynamic non-spatial attributes of features whose value varies with time.
+A moving feature can be express as a dynamic geometry whose location continously changes over time. Also it can contain dynamic non-spatial attributes of features whose value varies with time.
 The data format in this draft is extended from **GeoJSON terms** (type, geomtery, properties, etc.) in order to take the compatibility of GeoJSON.
 
 ## About
 
-This GitHub repository tracks the latest version of the Moving Features JSON Encoding draft, which is not an OGC Stardard but will be publishied as an OGC Best Practice Paper. Therefore, it is not an official postion of the OGC memebership.
-With this repository the OGC invites collaboration and comments directed at the development and enhancement of this candidate encoding format.
+This GitHub repository tracks the latest version of the Moving Features JSON Encoding draft, which is not an OGC Standard but will be published as an OGC Best Practice Paper. Therefore, it is not an official postion of the OGC membership.
+With this repository, the OGC invites collaboration and comments directed at the development and enhancement of this candidate encoding format.
 Pull requests for fixes are appreciated, and new functionality will still be considered until fixing the encoding format.
 The specification is done in asciidoc a format supported by GitHub, similar to markdown but with some features that make it better for specifications, like automatic section numbering.
 
